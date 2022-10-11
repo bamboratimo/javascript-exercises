@@ -6,7 +6,6 @@ const reverseString = function(string) {
     let final = arr.join("");
     return final;
 };
-reverseString("moi");
 
 // Do not edit below this line
 module.exports = reverseString;
