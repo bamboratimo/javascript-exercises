@@ -30,8 +30,15 @@ const power = function(num1, num2) {
   return numPowered;
 };
 
-const factorial = function() {
-	
+const factorial = function(num1) {
+  if (num1 === 0) {
+    return 1;
+  }
+  let factorial = num1;
+	for (let i = num1 - 1; i >= 1; i--) {
+    factorial = factorial * i;
+  }
+  return factorial;
 };
 
 // Do not edit below this line
