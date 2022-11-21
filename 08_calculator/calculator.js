@@ -22,8 +22,12 @@ const multiply = function(arr) {
   return sum;
 };
 
-const power = function() {
-	
+const power = function(num1, num2) {
+  let numPowered = num1;
+	for (let i = 1; i < num2; i++) {
+    numPowered *= num1;
+  }
+  return numPowered;
 };
 
 const factorial = function() {
